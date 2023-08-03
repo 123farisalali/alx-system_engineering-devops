@@ -1,2 +1,2 @@
 #!/bin/bash
-cmo -R +x .
+cmod -R +x .
