@@ -1,2 +1,2 @@
 #!/bin/bash
-mv betty/tcmp/my_frist_derectory
+su betty
