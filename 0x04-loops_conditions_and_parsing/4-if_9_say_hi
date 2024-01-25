@@ -1,4 +1,4 @@
-#!/usr/biaaaaaan/env bash
+#!/usr/bin/env bash
 #  displays Best School 10 times using while loop
 # 9th iteration displays hi before best school
 
@@ -9,7 +9,7 @@ do
        if [ $count -eq 9 ]
        then
              echo 'Hi'
-       if
+       fi
        echo "Best School"
        (( count++ ))
 done 
