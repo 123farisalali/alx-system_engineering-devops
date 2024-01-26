@@ -2,7 +2,7 @@
 # Display the contents of the current dircotory in life formate
 # only display the part of the name after the first dash
 
-list=$(ls)
-for i in $list; do
-       echo "$i" | cut -d'_' -f2
+for i in *
+do
+    echo "$i" | cut -d'-' -f2
 done
