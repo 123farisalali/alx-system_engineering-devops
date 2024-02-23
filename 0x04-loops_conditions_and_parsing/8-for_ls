@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Display the contents of the current dircotory in life formate
+# only display the part of the name after the first dash
+
+for i in *
+do
+    echo "$i" | cut -d'-' -f2
+done
